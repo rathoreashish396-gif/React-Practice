@@ -7,7 +7,8 @@ function ChatBot() {
   return (
     <>
       <input className="inputTxt" placeholder="Send a message to Chatbot" size="30"/>
-      <button className="btn">Send</button>
+      <button className="btnSend">Send</button>
+      <button className="btnCncl">Cancel</button>
     </>
   );
 }
